@@ -2,8 +2,6 @@
 @import url(bootstrap.min.css);
 @import url(owl.carousel.min.css);
 @import url(slicknav.css);
-@import url(gijgo.css);
-@import url(animated-headline.css);
 @import url(magnific-popup.css);
 @import url(fontawesome-all.min.css);
 @import url(themify-icons.css);
@@ -316,7 +314,7 @@ hr {
 	background: #16bac5;
 	font-family: 'Josefin Sans', sans-serif;
 	text-transform: capitalize;
-	padding: 25px 38px !important;
+	padding: 22px 30px !important;
 	color: #fff;
 	cursor: pointer;
 	display: inline-blockc !important;
@@ -2392,6 +2390,7 @@ hr {
 	right: 0px;
 	width: 100%;
 	z-index: 99;
+	margin-top: -1.2em;
 }
 .mobile_menu .slicknav_menu {
 	background: transparent;
@@ -3425,6 +3424,10 @@ hr {
 	.courses-area .properties__caption P span {
 		font-size: 12px;
 	}
+	.search-input{
+		margin-left: 5em;
+		margin-bottom: 3em;
+	}
 }
 .courses-area .properties__footer {
 	margin-bottom: 22px;
@@ -3433,9 +3436,21 @@ hr {
 	-o-transition: 0.4s;
 	transition: 0.4s;
 }
+.search-input{
+	margin-left: 5em;
+	margin-bottom: 3em;
+}
+
 @media (max-width: 575px) {
 	.courses-area .properties__footer {
 		padding: 19px 10px 20px 12px;
+	}
+	.search-input{
+		margin-left: 3em;
+	}
+	.search-input #btn-search{
+		margin-left: 4em;
+		margin: 2em;
 	}
 }
 .courses-area .properties__footer .restaurant-name p {
